@@ -1,0 +1,58 @@
+.Login{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.input1 input{
+    padding: 20px 20px;
+    width: 95%;
+    animation-name: appear;
+     animation-duration: 2.6s;
+
+}
+.input2 input{
+    padding: 20px 20px;
+    width: 95%;
+    animation-name: appear;
+     animation-duration: 2.2s;
+
+}
+.loginButton button{
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    padding: 10px 50px;
+    font-size: 20px;
+     font-family: 'Playfair', serif;
+     border-radius: 10px;
+     animation-name: appear;
+     animation-duration: 3s;
+}
+
+.Login div h3{
+    font-size: 25px;
+    padding-left: 5px;
+    animation-name: appear1;
+     animation-duration: 2.7s;
+}
+
+@keyframes appear {
+    from{
+         background-color: white;
+         translate: -1000px ; 
+    }
+    to{ 
+        background-color: black;
+    }
+}
+@keyframes appear1 {
+    from{
+         background-color: white;
+         translate: -1000px ; 
+    }
+    to{ 
+        background-color: white;
+    }
+}

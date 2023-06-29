@@ -1,0 +1,179 @@
+.header-Container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0,0,0);
+    justify-self: center;
+    color: white;
+    position: sticky;
+    animation-name: appear3;
+    animation-duration: 4s;
+}
+
+.navRight{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 19px;
+    
+}
+
+.navRight div a {
+    color : white;
+    text-decoration: none;
+    
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navleft h3 {
+    margin-left: 10px;
+}
+
+
+
+
+
+.myButtons {
+
+  
+   display: flex;
+   gap: 30px;
+   margin-left: 20px;
+    
+}
+.heading{
+    margin-left: 20px;
+    font-size: 30px;
+    margin-bottom: -25px;
+    animation-name: appear2;
+    animation-duration: 3s;
+
+}
+.myButtons button {
+    padding: 10px 50px;
+    font-size: 24px;
+     font-family: 'Playfair', serif;;
+}
+.LoginBtn a{
+    text-decoration: none;
+    color: white;
+}
+.text{
+    margin-left: 20px;
+    font-size: 25px;
+    animation-name: appear2;
+    animation-duration: 3.5s;
+}
+
+.image img{
+ 
+    margin-left: 700px;
+    margin-top: -100px;
+    height: 400px;
+    width: 700px;
+   display: block;
+   animation-name: imageName;
+    animation-duration: 3.5s;
+
+   
+}
+
+
+.signUpBtn{
+
+    background-color: rgb(255,255,255);
+    animation-name: appearSignUp;
+    animation-duration: 2s;
+}
+
+.signUpBtn a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.LoginBtn{
+
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-style: solid;
+    animation-name: appear;
+    animation-duration: 3s;
+    
+}
+
+
+
+@keyframes appear {
+    from{
+         background-color: white;
+         translate: -1000px ; 
+    }
+    to{ 
+        background-color: black;
+    }
+}
+
+
+@keyframes appearSignUp {
+    from{
+         
+       color: white;
+       border-color: white;
+       translate: -1000px ; 
+    }
+    to{
+       color: black;
+
+        
+    }
+}
+
+/* @keyframes imageName{
+    from{
+        display: none;
+        margin-top: -1000px;
+       
+    }
+    to{
+      margin-top: -100px;
+
+    }
+} */
+
+@keyframes appear2 {
+    from{
+         background-color: white;
+         translate: -1000px ; 
+    }
+    to{ 
+      
+    }
+}
+
+@keyframes appear3 {
+    from{
+         background-color: white;
+         translate: 0px -1000; 
+    }
+    to{ 
+      
+    }
+}
+
+@keyframes imageName {
+    from {
+        opacity: 0;
+        
+    }
+    to {
+        opacity: 1;
+       
+    }
+}
